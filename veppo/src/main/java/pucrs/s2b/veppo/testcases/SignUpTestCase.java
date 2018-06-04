@@ -35,7 +35,7 @@ public class SignUpTestCase {
 	}
 	
 	@After
-	public void tesrDown() {
+	public void tearDown() {
 		this.driver.quit();
 	}
 
