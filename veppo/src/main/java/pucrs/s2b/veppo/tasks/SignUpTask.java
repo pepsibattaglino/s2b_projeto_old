@@ -19,19 +19,20 @@ public class SignUpTask {
 		this.signUpAppObject.getFormularioCadastroLink().click();
 	}
 	
-	public void fillOutSignUpForm(	String nome, 
-									String endereco, 
-									String complemento,	
-									String cidade, 
-									String cep, 
-									String estado, 
-									String pessoa, 
-									String cpf, 
-									String telefone, 
-									String fax, 
-									String celular, 
-									String email, 
-									String senha, 
+	public void fillOutSignUpForm(
+									String nome,
+									String endereco,
+									String complemento,
+									String cidade,
+									String cep,
+									String estado,
+									String pessoa,
+									String cpf,
+									String telefone,
+									String fax,
+									String celular,
+									String email,
+									String senha,
 									String confirmarSenha) {
 		this.signUpAppObject.getNomeCompletoTextField().sendKeys(nome);
 		this.signUpAppObject.getEnderecoTextField().sendKeys(endereco);
