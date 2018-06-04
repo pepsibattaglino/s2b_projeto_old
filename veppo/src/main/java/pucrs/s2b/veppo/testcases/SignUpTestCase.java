@@ -29,7 +29,20 @@ public class SignUpTestCase {
 	@Test
 	public void testMain() {
 		this.signUpTask.navegateToSignUpForm();
-		this.signUpTask.fillOutSignUpForm("Fulano Fulani", "Av. Strada", "Casa", "Porto Alegre", "12345678", "RS", "F", "12345678901", "912345678", "123456789", "123456789", "fulano@gmail.com", "123456", "123456");
+		this.signUpTask.fillOutSignUpForm(	"Fulano Fulani", 
+											"Av. Strada", 
+											"Casa",
+											"Porto Alegre", 
+											"12345678", 
+											"RS", 
+											"F", 
+											"12345678901", 
+											"912345678", 
+											"123456789", 
+											"123456789", 
+											"fulano@gmail.com", 
+											"123456",
+											"123456");
 		this.signUpTask.submitSignUpForm();
 		this.signUpVerificationPoint.checkSuccessMassage();
 	}
